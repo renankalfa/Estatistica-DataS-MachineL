@@ -3,6 +3,7 @@ from populacaoeamostra.probability_sampling.allsamplings import *
 
 dataset = pd.read_csv('credit_data.csv')
 
+# Testando o novo projeto
 # Testando a amostragem aleatória simples
 print(amostragem_aleatoria_simples(dataset, 1000).head())
 divider()
